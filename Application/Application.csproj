@@ -6,4 +6,50 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Scrutor" Version="4.2.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="obj\Application.csproj.nuget.dgspec.json" />
+    <Content Include="obj\Application.csproj.nuget.g.props" />
+    <Content Include="obj\Application.csproj.nuget.g.targets" />
+    <Content Include="obj\Debug\net7.0\Application.AssemblyInfoInputs.cache" />
+    <Content Include="obj\Debug\net7.0\Application.assets.cache" />
+    <Content Include="obj\Debug\net7.0\Application.csproj.AssemblyReference.cache" />
+    <Content Include="obj\Debug\net7.0\Application.csproj.CopyComplete" />
+    <Content Include="obj\Debug\net7.0\Application.csproj.CoreCompileInputs.cache" />
+    <Content Include="obj\Debug\net7.0\Application.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\net7.0\Application.dll" />
+    <Content Include="obj\Debug\net7.0\Application.GeneratedMSBuildEditorConfig.editorconfig" />
+    <Content Include="obj\Debug\net7.0\Application.genruntimeconfig.cache" />
+    <Content Include="obj\Debug\net7.0\Application.pdb" />
+    <Content Include="obj\Debug\net7.0\refint\Application.dll" />
+    <Content Include="obj\Debug\net7.0\ref\Application.dll" />
+    <Content Include="obj\project.assets.json" />
+    <Content Include="obj\project.nuget.cache" />
+    <Content Include="obj\project.packagespec.json" />
+    <Content Include="obj\rider.project.restore.info" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\net7.0\.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net7.0\Application.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net7.0\Application.GlobalUsings.g.cs" />
+  </ItemGroup>
+
 </Project>
