@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace OrderApi;
+﻿namespace OrderApi;
 
 public partial class Order
 {
